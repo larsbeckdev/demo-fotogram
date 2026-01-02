@@ -13,8 +13,8 @@ const router = createRouter({
     },
     {
       path: "/:pathMatch(.*)*",
-      name: "not-found",
-      component: () => import("../views/error/NotFoundView.vue"),
+      name: "error404",
+      component: () => import("../views/error/Error404View.vue"),
       meta: {
         title: "Seite nicht gefunden",
       },

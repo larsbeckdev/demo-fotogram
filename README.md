@@ -1,4 +1,4 @@
-## 📸 Fotogram
+# 📸 Fotogram
 
 **Fotogram** ist ein minimalistisches, persönliches Fotoalbum zum Sammeln und Betrachten deiner schönsten Momente.  
 Ohne Ablenkung, ohne soziale Funktionen – **nur deine Erinnerungen**, klar und stilvoll präsentiert.
