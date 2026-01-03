@@ -1,22 +1,39 @@
-<script setup></script>
+<script setup>
+import AppHeader from '@/components/layout/AppHeader.vue'
+import AppMain from '@/components/layout/AppMain.vue'
+import AppFooter from '@/components/layout/AppFooter.vue'
+</script>
 
 <template>
-  <div class="home">
-    <h1 class="text-3xl font-bold">You did it!</h1>
-    <p>
-      Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-      documentation
-    </p>
-  </div>
+  <AppHeader class="app-header" />
+  <AppMain class="app-main" />
+  <AppFooter class="app-footer" />
 </template>
 
 <style scoped>
-.home {
+.app-header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 50;
+  height: 80px;
+}
+
+.app-main {
+  min-height: calc(100vh - 40px);
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  height: 100%;
-  text-align: center;
+  align-items: center;
+}
+
+.app-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 200px;
 }
 </style>

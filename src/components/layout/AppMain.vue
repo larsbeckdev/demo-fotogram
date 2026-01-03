@@ -1,7 +1,9 @@
 <script setup></script>
 
 <template>
-  <p>Placeholder</p>
+  <main>
+    <RouterView />
+  </main>
 </template>
 
 <style scoped></style>
