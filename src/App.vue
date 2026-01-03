@@ -22,10 +22,7 @@ import AppFooter from '@/components/layout/AppFooter.vue'
 
 .app-main {
   min-height: calc(100vh - 40px);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding-top: 80px;
 }
 
 .app-footer {

@@ -4,6 +4,12 @@
 Ohne Ablenkung, ohne soziale Funktionen – **nur deine Erinnerungen**, klar und stilvoll präsentiert.
 
 
+## Converter PNG/JPG to WEBP
+
+```sh
+node src/scripts/images.js
+```
+
 ## Project Setup
 
 ```sh

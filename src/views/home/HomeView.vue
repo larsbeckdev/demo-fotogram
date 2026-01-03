@@ -1,7 +1,9 @@
-<script setup></script>
+<script setup>
+import PhotoAlbum from '@/components/section/PhotoAlbum.vue'
+</script>
 
 <template>
-  <p>Placeholder</p>
+  <PhotoAlbum />
 </template>
 
 <style scoped></style>
