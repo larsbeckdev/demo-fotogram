@@ -35,6 +35,12 @@ body {
   background: var(--bg-footer);
 }
 
+.photo-lightbox {
+  max-width: 90vw;
+  width: 600px;
+}
+
+
 /* =========================
  * THEME VARIABLES
  * ========================= */

@@ -21,8 +21,8 @@ import AppFooter from '@/components/layout/AppFooter.vue'
 }
 
 .app-main {
-  min-height: calc(100vh - 40px);
-  padding-top: 80px;
+  min-height: calc(100vh - 80px);
+  padding-top: 120px;
 }
 
 .app-footer {
@@ -30,7 +30,7 @@ import AppFooter from '@/components/layout/AppFooter.vue'
   bottom: 0;
   left: 0;
   width: 100%;
-  z-index: 1000;
-  height: 200px;
+  z-index: 50;
+  height: 60px;
 }
 </style>

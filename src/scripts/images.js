@@ -4,7 +4,7 @@ import fs from 'fs'
 import path from 'path'
 
 const srcDir = 'src/assets/images'
-const outDir = 'public/images'
+const outDir = 'src/assets/webp'
 
 fs.mkdirSync(outDir, { recursive: true })
 
