@@ -1,0 +1,79 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="header-logo">
+      <a href="/index.html">
+        <img
+          class="header-logo-img desktop-logo-img"
+          src="assets/img/logo.png"
+          alt="Kochwelt Logo"
+        />
+        <img
+          class="header-logo-img mobile-logo-img"
+          src="assets/img/logo_small.png"
+          alt="Kochwelt Logo"
+        />
+      </a>
+    </div>
+
+    <div class="header-nav-wrapper">
+      <div class="desktop-nav">
+        <nav class="header-nav">
+          <ul>
+            <li><a href="/index.html">Start</a></li>
+            <li>
+              <a href="/recipe_of_the_day_spagetti_carbonara.html"
+                >Rezept des Tages</a
+              >
+            </li>
+            <li><a href="/kontakt.html">Kontakt</a></li>
+            <li><a href="/impressum.html">Impressum</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="mobile-nav">
+        <button
+          type="button"
+          aria-expanded="false"
+          onclick="openCloseRespMenu()"
+          class="menu-button"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-menu-icon lucide-menu"
+          >
+            <path d="M4 5h16" />
+            <path d="M4 12h10" />
+            <path d="M4 19h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Overlay -->
+<div
+  id="resp_overlay"
+  class="resp-overlay resp_overlay_hidden"
+  onclick="openCloseRespMenu()"
+></div>
+
+<!-- Responsive Menu -->
+<div id="resp_menu" class="resp-menu-box resp_menu_closed">
+  <div class="resp-menu-box-links">
+    <ul>
+      <li><a href="/index.html">Start</a></li>
+      <li><a href="/rezept.html">Rezept des Tages</a></li>
+      <li><a href="/kontakt.html">Kontakt</a></li>
+      <li><a href="/impressum.html">Impressum</a></li>
+    </ul>
+  </div>
+</div>

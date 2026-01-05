@@ -1,0 +1,41 @@
+/* =========================
+   Base / Reset
+========================= */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #0b0c10;
+  --card: #12131a;
+  --text: #e9e9f1;
+  --muted: #a9a9bd;
+  --border: rgba(255, 255, 255, 0.08);
+  --accent: #5b8cff;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  --radius: 16px;
+}
+
+:root[data-theme="light"] {
+  --bg: #f7f7fb;
+  --card: #ffffff;
+  --text: #14151a;
+  --muted: #5e6472;
+  --border: rgba(0, 0, 0, 0.10);
+  --accent: #2f6bff;
+  --shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
