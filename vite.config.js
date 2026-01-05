@@ -10,6 +10,7 @@ import svgLoader from 'vite-svg-loader'
 
 export default defineConfig({
   plugins: [vue(), vueJsx(), vueDevTools(), tailwindcss(), tsconfigPaths(), svgLoader()],
+  // base: '/demo-fotogram/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
