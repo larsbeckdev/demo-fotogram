@@ -1,5 +1,50 @@
 <div class="main-inner">
-  <section class="section">
-    <div class="section-inner"></div>
+  <section class="section container gallery-section">
+    <div class="section-inner">
+      <h1 class="album-title">Your personal photo album</h1>
+      <ul data-img-list></ul>
+
+      <dialog id="lightbox" aria-label="Lightbox">
+        <div class="lb">
+          <div class="lb-header">
+            <div class="lb-title">
+              <div id="imageName">Titel</div>
+              <div id="currentImg">1 / 12</div>
+            </div>
+            <button
+              id="closeDialogBtn"
+              class="lb-close"
+              type="button"
+              aria-label="Schließen"
+            >
+              ✕
+            </button>
+          </div>
+
+          <div class="lb-body">
+            <img id="dialogImg" src="" alt="" />
+          </div>
+
+          <div class="lb-footer">
+            <button
+              id="previousBtn"
+              class="lb-navbtn button"
+              type="button"
+              aria-label="Vorheriges Bild"
+            >
+              ← Zurück
+            </button>
+            <button
+              id="nextBtn"
+              class="lb-navbtn button"
+              type="button"
+              aria-label="Nächstes Bild"
+            >
+              Weiter →
+            </button>
+          </div>
+        </div>
+      </dialog>
+    </div>
   </section>
 </div>

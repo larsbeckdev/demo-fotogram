@@ -77,7 +77,7 @@
   --accent: oklch(0.94 0 0);
   --accent-foreground: oklch(0.21 0 0);
 
-  --border: oklch(0.91 0 0);
+  --border: oklch(0.764 0 0);
   --input: oklch(0.91 0 0);
 
   --ring: oklch(0.74 0.06 265.755);
@@ -175,6 +175,11 @@ a:hover {
   text-decoration: underline;
 }
 
+h1 {
+  text-align: center;
+  font-size: clamp(1.225rem, 4vw, 2.5rem);
+}
+
 /* =========================
    Layout
 ========================= */
@@ -201,7 +206,8 @@ section {
 BUTTON
 ************************************/
 
-button {
+button,
+.button {
   font-family: inherit;
   font-size: 1rem;
   line-height: 1.5;
@@ -252,8 +258,14 @@ header {
 ========================= */
 
 main {
-  min-height: calc(100vh - 40px);
+  min-height: calc(100vh - 100px);
   padding: 120px 0;
+}
+
+.gallery-section .section-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* =========================
@@ -261,7 +273,7 @@ main {
 ========================= */
 
 footer {
-  height: 40px;
+  height: 100px;
   z-index: 50;
   width: 100%;
   background-color: var(--color-background-footer);
@@ -274,6 +286,8 @@ footer {
   justify-content: center;
   height: 100%;
   width: 100%;
+  padding: 16px;
+  text-align: center;
 }
 
 /* =========================
