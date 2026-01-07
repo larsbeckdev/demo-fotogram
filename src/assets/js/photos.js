@@ -37,7 +37,7 @@ export const images = [
   },
   {
     id: "sea",
-    src: "./images/Bild-7.webp",
+    src: "./src/assets/images/Bild-7.webp",
     alt: "Luftaufnahme von weißen Meereswellen, die auf einen dunklen Strand treffen, mit starkem Kontrast zwischen schäumendem Wasser und schwarzem Sand",
     title: "Grenze zwischen Wasser und Nacht",
   },
